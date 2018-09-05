@@ -18,7 +18,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     Context context;
-    public int NOTIFICATION_ID = 2;
+    public int NOTIFICATION_ID = 2;     //only neccessary for bar notification to keep track over all notifications
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
